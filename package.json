@@ -1,12 +1,12 @@
 {
-   "homepage": "https://SurajKhonde.github.io/CloneCodePen",
+   "homepage": "https://SurajKhonde.github.io/codetest",
    "name": "codepen",
    "version": "1.0.0",
    "description": "this codepen clone",
    "main": "script.js",
    "scripts": {
       
-      "predeploy": "rd /s /q dist && parcel build index.html --public-url https://SurajKhonde.github.io/learning/",
+      "predeploy": "rd /s /q dist && parcel build index.html --public-url https://SurajKhonde.github.io/codetest/",
       "deploy": "gh-pages -d dist",
       "start": "parcel index.html",
       "build": "parcel build index.html",
